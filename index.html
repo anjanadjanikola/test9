@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Galerija </title>
+<head>
+
+<style>
+   body{
+     display: grid;
+     font-size: 14px;
+     color: black;
+     width: 100%;
+     font-family: sans-serif;
+   }
+   h1 {
+     font-weight:bold;
+   }
+   #kontejner {
+     display: grid;
+     grid-template-columns: repeat(5, 17vw);
+     margin: 0 auto;
+     gap: 5px;
+     }
+
+   .image {
+     background-color: rgba(6, 48, 104, 0.801);
+     width: 100%;
+     display: block;
+     border-top-left-radius: 4%;
+     border-top-right-radius: 4%;
+     margin: auto;
+     max-width: 100%;
+   }
+
+   h2{
+     text-align: center;
+     border-color:#808080;
+     border-radius: 5%;
+   }
+   .kutija {
+     border-color:  rgb(236, 233,233);
+     border-style: solid;
+    border-radius: 5%;
+   }
+   @media screen and (max-width: 768px) {
+     #kontejner {
+       grid-template-columns: repeat(3, minmax(3vw, auto));
+     }
+   }
+    @media screen and (max-width: 414px) {
+      #kontejner {
+        grid-template-columns: repeat(1, minmax(2vw, auto));
+      }
+
+    }
+
+   
+  
+    
+   
+</style>
+</head>
+<body>
+   <h1> Galery Heading</h1>
+      
+  <div id="kontejner">
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+  <div class="kutija"><img src="placeholder-image.png" class="image"><p>Image title</p></div>
+   
+</div>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a lacinia nisi, nec tristique sem. Cras id tellus ac mauris posuere varius. Pellenteswue vel mi justo. Aenean malesuada purus eu lacinia finbus. Praesent comodo euismod odio, eu pharetra nulla dignissim nec. Ut id nulla auque. Duis ultricies eusmod purus, ut lobortis tortor semper a. Nam eleinfed accumsan elit, in elementumblacus. Nunc varius imperdiet nisi, eget oretium auque molestie a. Nullam ut malesuada enim. Integer non velit fringila porta ex vitae, portitor velit. Ut luctus lacinia libero a scrlerisque. Ut ullamcorper arcu  at mauris ullamcorper tempor. </p>
+  
+</body>
+</html>
